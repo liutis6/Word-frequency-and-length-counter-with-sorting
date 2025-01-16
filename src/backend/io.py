@@ -1,10 +1,9 @@
-from word_frequency import *
+from functions import *
 
 inp = open("data/input.txt", "r").read()
-print(inp)
-print("NEW TEXT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+x = sort(get_stats(inp), "descending", "descending")
 
-print(get_frequency(inp))
+display(x)
 
 out = open("data/output.txt", "w")
 out.write("works!")
