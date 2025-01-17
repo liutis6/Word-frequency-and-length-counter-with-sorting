@@ -1,11 +1,11 @@
-import io, re, sys
-from word_classes import *
+import re
+from .word_classes import *
 
 def filter_text(raw_text):
     return re.sub(r'\W', " ", raw_text).lower()
 
-def get_stats(input_path:str, lengthOrder: str, frequencyOrder:str):
-    w_array = word_array(lengthOrder, frequencyOrder)
+def get_stats(input_path:str, lengthOrder: str, countOrder:str):
+    w_array = word_array(lengthOrder, countOrder)
 
     with open(input_path, "r") as input:
         while (line:=input.readline()):

@@ -1,23 +1,23 @@
 class word:
-    def __init__(self, text, frequency=1):
+    def __init__(self, text, count=1):
         self.text = text
-        self.frequency = frequency
+        self.count = count
         self.length = len(text)
     
-    def incr_frequency(self):
-        self.frequency += 1
+    def incr_count(self):
+        self.count += 1
 
     def get_text(self):
         return self.text
 
-    def compare(self, other, lengthOrder="descending", frequencyOrder="descending"):
+    def compare(self, other, lengthOrder="descending", countOrder="descending"):
         if lengthOrder == "ascending":
             if self.length > other.length:
                 # swap so that the left value becomes the right
                 return True
             
             elif self.length == other.length:
-                return self.sort_secondary(other, frequencyOrder)
+                return self.sort_secondary(other, countOrder)
             
             else:
                 return False
@@ -28,20 +28,20 @@ class word:
                 return False
 
             elif self.length == other.length:
-                return self.sort_secondary(other, frequencyOrder) 
+                return self.sort_secondary(other, countOrder) 
             else:
                 return True
     
-    def sort_secondary(self, other, frequencyOrder):
-        if frequencyOrder == "ascending":
-            if self.frequency > other.frequency:
+    def sort_secondary(self, other, countOrder):
+        if countOrder == "ascending":
+            if self.count > other.count:
                 # swap so that the left value becomes the right
                 return True
             else:
                 return False
 
-        if frequencyOrder == "descending":
-            if self.frequency > other.frequency:
+        if countOrder == "descending":
+            if self.count > other.count:
                 # DON't swap so that
                 # the left value stays as the lower one
                 return False
@@ -52,14 +52,14 @@ class word:
         return self.text == other.text
     
     def __str__(self):
-        return f"Word: {self.text}, Length: {self.length}, Frequency:{self.frequency}"
+        return f"Word: {self.text}, Length: {self.length}, count:{self.count}"
     
 
 class word_array:
-    def __init__(self, lengthOrder, frequencyOrder):
+    def __init__(self, lengthOrder, countOrder):
         self.words = []
         self.lengthOrder = lengthOrder
-        self.frequencyOrder = frequencyOrder
+        self.countOrder = countOrder
 
     def __getitem__(self, key): 
 
@@ -86,7 +86,7 @@ class word_array:
 
     def update(self, w: str):
         if x:=self[w]:
-            self[w].incr_frequency()
+            self[w].incr_count()
         else:
             x = word(w)
             self.append(x) 
@@ -96,7 +96,7 @@ class word_array:
         n = len(self.words)
         for i in range(n):
             for j in (range(0, n - i -1)):
-                if self.words[j].compare(self.words[j+1], self.lengthOrder, self.frequencyOrder):
+                if self.words[j].compare(self.words[j+1], self.lengthOrder, self.countOrder):
                     #print(f"{self.words[j].get_text()} -> {self.words[j+1].get_text()}")
                     temp = self.words[j]
                     self.words[j] = self.words[j+1]
