@@ -1,46 +1,36 @@
-import io, re, sys, classes
+import io, re, sys
+from word_classes import *
 
 def filter_text(raw_text):
     return re.sub(r'\W', " ", raw_text).lower()
 
-def get_stats(text, w_array: word_array):
+def get_stats(text: str, w_array: word_array):
     text_array = filter_text(text).split()
 
     for w in text_array:
-        if w_array.is_in(w):
-            w.incr_frequency()
+        if x:=w_array[w]:
+            w_array[w].incr_frequency()
         else:
-            w_array.append()
+            x = word(w)
+            w_array.append(x) 
+
     return w_array
 
 
-def sort(path, lengthOrder, frequencyOrder):
+def sort(path: str, lengthOrder: str, frequencyOrder:str):
     words_sorted = []
     lengthOrder = filter_text(lengthOrder)
     frequencyOrder = filter_text(frequencyOrder)
 
-    word_arra = word_array()
-    temp = []
+    w_array = word_array()
 
     with open(path, "r") as file:
         while (line:=file.readline()):
-            word_array = get_stats(line, word_array)
+            w_array = get_stats(line, w_array)
     
-    return words_sorted
+    w_array.display()
 
-def get_stats(text, w_array: word_array):
-    text_array = filter_text(text).split()
-
-    for w in text_array:
-        if w_array.is_in(w):
-            w.incr_frequency()
-        else:
-            w_array.append()
-    return w_array
-
-def display(word_dict):
-    for k, v in word_dict.items():
-        print(f"Word: {k}  length: {v["length"]} frequency: {v["frequency"]}")
+    return None
 
 
 
