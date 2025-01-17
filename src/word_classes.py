@@ -52,7 +52,13 @@ class word:
         return self.text == other.text
     
     def __str__(self):
-        return f"Word: {self.text}, Length: {self.length}, count:{self.count}"
+        return f"Word: {self.text:<20}, Length: {self.length:<5}, count:{self.count:<5}"
+    
+    def get_len(self):
+        return len(self.text)
+    
+    def get_count(self):
+        return self.count
     
 
 class word_array:
@@ -80,7 +86,7 @@ class word_array:
                 return True
         return False
 
-    def display(self):
+    def simple_display(self):
         for w in self.words:
             print(w)
 
@@ -101,3 +107,15 @@ class word_array:
                     temp = self.words[j]
                     self.words[j] = self.words[j+1]
                     self.words[j+1] = temp
+
+    def get_maxes(self):
+        max_len = -1
+        max_count = -1
+        for w in self.words:
+            if w.get_len() > max_len:
+                max_len = w.get_len()
+            if w.get_count() > max_count:
+                max_count = w.get_count()
+        return (max_len, max_count)
+
+        

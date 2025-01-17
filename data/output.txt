@@ -1,117 +1,121 @@
-Word: a, Length: 1, count:9
-Word: to, Length: 2, count:10
-Word: in, Length: 2, count:4
-Word: on, Length: 2, count:3
-Word: it, Length: 2, count:2
-Word: if, Length: 2, count:1
-Word: is, Length: 2, count:1
-Word: of, Length: 2, count:1
-Word: or, Length: 2, count:1
-Word: up, Length: 2, count:1
-Word: you, Length: 3, count:17
-Word: the, Length: 3, count:13
-Word: and, Length: 3, count:9
-Word: new, Length: 3, count:5
-Word: can, Length: 3, count:4
-Word: for, Length: 3, count:4
-Word: add, Length: 3, count:3
-Word: way, Length: 3, count:2
-Word: box, Length: 3, count:1
-Word: end, Length: 3, count:1
-Word: row, Length: 3, count:1
-Word: off, Length: 3, count:1
-Word: too, Length: 3, count:1
-Word: your, Length: 4, count:7
-Word: want, Length: 4, count:4
-Word: when, Length: 4, count:4
-Word: that, Length: 4, count:3
-Word: word, Length: 4, count:3
-Word: then, Length: 4, count:2
-Word: fits, Length: 4, count:2
-Word: also, Length: 4, count:2
-Word: help, Length: 4, count:2
-Word: text, Length: 4, count:2
-Word: need, Length: 4, count:2
-Word: page, Length: 4, count:2
-Word: each, Length: 4, count:1
-Word: keep, Length: 4, count:1
-Word: even, Length: 4, count:1
-Word: left, Length: 4, count:1
-Word: code, Length: 4, count:1
-Word: best, Length: 4, count:1
-Word: them, Length: 4, count:1
-Word: stop, Length: 4, count:1
-Word: type, Length: 4, count:1
-Word: show, Length: 4, count:1
-Word: look, Length: 4, count:1
-Word: view, Length: 4, count:1
-Word: with, Length: 4, count:1
-Word: time, Length: 4, count:1
-Word: sign, Length: 4, count:1
-Word: plus, Length: 4, count:1
-Word: save, Length: 4, count:1
-Word: from, Length: 4, count:1
-Word: work, Length: 4, count:1
-Word: next, Length: 4, count:1
-Word: make, Length: 4, count:1
-Word: click, Length: 5, count:6
-Word: video, Length: 5, count:4
-Word: theme, Length: 5, count:3
-Word: where, Length: 5, count:3
-Word: match, Length: 5, count:2
-Word: cover, Length: 5, count:2
-Word: prove, Length: 5, count:1
-Word: table, Length: 5, count:1
-Word: point, Length: 5, count:1
-Word: reach, Length: 5, count:1
-Word: apply, Length: 5, count:1
-Word: focus, Length: 5, count:1
-Word: parts, Length: 5, count:1
-Word: embed, Length: 5, count:1
-Word: paste, Length: 5, count:1
-Word: other, Length: 5, count:1
-Word: change, Length: 6, count:3
-Word: online, Length: 6, count:2
-Word: styles, Length: 6, count:2
-Word: header, Length: 6, count:2
-Word: choose, Length: 6, count:2
-Word: device, Length: 6, count:1
-Word: search, Length: 6, count:1
-Word: design, Length: 6, count:1
-Word: before, Length: 6, count:1
-Word: footer, Length: 6, count:1
-Word: easier, Length: 6, count:1
-Word: themes, Length: 6, count:1
-Word: column, Length: 6, count:1
-Word: insert, Length: 6, count:1
-Word: charts, Length: 6, count:1
-Word: layout, Length: 6, count:1
-Word: button, Length: 6, count:1
-Word: reading, Length: 7, count:3
-Word: another, Length: 7, count:1
-Word: example, Length: 7, count:1
-Word: keyword, Length: 7, count:1
-Word: appears, Length: 7, count:1
-Word: options, Length: 7, count:1
-Word: picture, Length: 7, count:1
-Word: buttons, Length: 7, count:1
-Word: sidebar, Length: 7, count:1
-Word: designs, Length: 7, count:1
-Word: document, Length: 8, count:5
-Word: provides, Length: 8, count:2
-Word: elements, Length: 8, count:1
-Word: collapse, Length: 8, count:1
-Word: headings, Length: 8, count:1
-Word: graphics, Length: 8, count:1
-Word: smartart, Length: 8, count:1
-Word: pictures, Length: 8, count:1
-Word: matching, Length: 8, count:1
-Word: produced, Length: 8, count:1
-Word: powerful, Length: 8, count:1
-Word: remembers, Length: 9, count:1
-Word: different, Length: 9, count:1
-Word: galleries, Length: 9, count:1
-Word: complement, Length: 10, count:1
-Word: coordinated, Length: 11, count:1
-Word: professionallyb, Length: 15, count:2
-Word: professionallya, Length: 15, count:1
+-------------------------------------
+| Word            | Length | Count |
+-------------------------------------
+| a               | 1      | 9     |
+| to              | 2      | 10    |
+| in              | 2      | 4     |
+| on              | 2      | 3     |
+| it              | 2      | 2     |
+| if              | 2      | 1     |
+| is              | 2      | 1     |
+| of              | 2      | 1     |
+| or              | 2      | 1     |
+| up              | 2      | 1     |
+| you             | 3      | 17    |
+| the             | 3      | 13    |
+| and             | 3      | 9     |
+| new             | 3      | 5     |
+| can             | 3      | 4     |
+| for             | 3      | 4     |
+| add             | 3      | 3     |
+| way             | 3      | 2     |
+| box             | 3      | 1     |
+| end             | 3      | 1     |
+| row             | 3      | 1     |
+| off             | 3      | 1     |
+| too             | 3      | 1     |
+| your            | 4      | 7     |
+| want            | 4      | 4     |
+| when            | 4      | 4     |
+| that            | 4      | 3     |
+| word            | 4      | 3     |
+| then            | 4      | 2     |
+| fits            | 4      | 2     |
+| also            | 4      | 2     |
+| help            | 4      | 2     |
+| text            | 4      | 2     |
+| need            | 4      | 2     |
+| page            | 4      | 2     |
+| each            | 4      | 1     |
+| keep            | 4      | 1     |
+| even            | 4      | 1     |
+| left            | 4      | 1     |
+| code            | 4      | 1     |
+| best            | 4      | 1     |
+| them            | 4      | 1     |
+| stop            | 4      | 1     |
+| type            | 4      | 1     |
+| show            | 4      | 1     |
+| look            | 4      | 1     |
+| view            | 4      | 1     |
+| with            | 4      | 1     |
+| time            | 4      | 1     |
+| sign            | 4      | 1     |
+| plus            | 4      | 1     |
+| save            | 4      | 1     |
+| from            | 4      | 1     |
+| work            | 4      | 1     |
+| next            | 4      | 1     |
+| make            | 4      | 1     |
+| click           | 5      | 6     |
+| video           | 5      | 4     |
+| theme           | 5      | 3     |
+| where           | 5      | 3     |
+| match           | 5      | 2     |
+| cover           | 5      | 2     |
+| prove           | 5      | 1     |
+| table           | 5      | 1     |
+| point           | 5      | 1     |
+| reach           | 5      | 1     |
+| apply           | 5      | 1     |
+| focus           | 5      | 1     |
+| parts           | 5      | 1     |
+| embed           | 5      | 1     |
+| paste           | 5      | 1     |
+| other           | 5      | 1     |
+| change          | 6      | 3     |
+| online          | 6      | 2     |
+| styles          | 6      | 2     |
+| header          | 6      | 2     |
+| choose          | 6      | 2     |
+| device          | 6      | 1     |
+| search          | 6      | 1     |
+| design          | 6      | 1     |
+| before          | 6      | 1     |
+| footer          | 6      | 1     |
+| easier          | 6      | 1     |
+| themes          | 6      | 1     |
+| column          | 6      | 1     |
+| insert          | 6      | 1     |
+| charts          | 6      | 1     |
+| layout          | 6      | 1     |
+| button          | 6      | 1     |
+| reading         | 7      | 3     |
+| another         | 7      | 1     |
+| example         | 7      | 1     |
+| keyword         | 7      | 1     |
+| appears         | 7      | 1     |
+| options         | 7      | 1     |
+| picture         | 7      | 1     |
+| buttons         | 7      | 1     |
+| sidebar         | 7      | 1     |
+| designs         | 7      | 1     |
+| document        | 8      | 5     |
+| provides        | 8      | 2     |
+| elements        | 8      | 1     |
+| collapse        | 8      | 1     |
+| headings        | 8      | 1     |
+| graphics        | 8      | 1     |
+| smartart        | 8      | 1     |
+| pictures        | 8      | 1     |
+| matching        | 8      | 1     |
+| produced        | 8      | 1     |
+| powerful        | 8      | 1     |
+| remembers       | 9      | 1     |
+| different       | 9      | 1     |
+| galleries       | 9      | 1     |
+| complement      | 10     | 1     |
+| coordinated     | 11     | 1     |
+| professionallyb | 15     | 2     |
+| professionallya | 15     | 1     |
+-------------------------------------

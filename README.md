@@ -1,4 +1,4 @@
-# Word frequency and length counter (with settings)
+# Word frequency and length counter with sorting
 
 ## Description:
 Word frequency and length counter that ignores semantic context as well as case sensitivity.
@@ -6,22 +6,21 @@ Word frequency and length counter that ignores semantic context as well as case 
 The following parameters are controlled through the settings file:
 * Path to text file
 * Path for result
-* Sort order
+* Sort order by:
+    1) Length of the word
+    2) Count
 
-Additional requirements:
-* No punctuation marks
+## Instructions
+- Run "main.py"
+    - Change "settings.json" if needed
 
 ## TODO:
-* Read file + text
+* Read file
     * Filter text by removing punctuation and making it all lower case.
-    * Create a dictionary that would count each words frequency
+    * ~~Create a dictionary that would count each words frequency~~ ->
+    * Create classes for word and word array
 * Make bubble sort
-    * Implement easily changable parameters that could be changed in a different file
-* Display the words 
-    * show their length and frequency
-
-* Overengineering thoughts:
-    * Implement GUI
-        * Can pick file
-        * Choose sort direction
-        * Display bar graph
+* Implement changable parameters gotten from settings.json
+* Print the sorted list
+    * Show the length and frequency of the words
+    * Tabulate
