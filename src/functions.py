@@ -13,16 +13,22 @@ def get_stats(input_path:str, lengthOrder: str, countOrder:str):
 
             for w in text_array:
                 w_array.update(w)
+
+    if w_array.len()<1:
+        raise ValueError("No text given!")
+    
     return w_array
 
 def write_output(output_path:str, w_array:word_array):
     max_len, max_count = w_array.get_maxes()
+
     head_word = 4 # "Word" has 4 letters
     head_length = 6 
     head_count = 5
 
 
     with open(output_path, "w") as output:
+        
         header = (f"| {"Word":<{max_len if max_len>head_word else head_word}} |" + 
                     f" {"Length":<{len(str(max_len)) if len(str(max_len)) > head_length else head_length}} |" +
                     f" {"Count":<{len(str(max_count)) if len(str(max_count)) > head_count else head_count}} |\n")

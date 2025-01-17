@@ -23,4 +23,5 @@ The following parameters are controlled through the settings file:
 * Implement changable parameters gotten from settings.json
 * Print the sorted list
     * Show the length and frequency of the words
-    * Tabulate
+    * Tabulate and auto space the words and numbers in the table
+* Add safeties
