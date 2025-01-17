@@ -82,10 +82,12 @@ class word_array:
         self.lengthOrder = lengthOrder
         self.countOrder = countOrder
 
-    def __getitem__(self, key): 
+    def __getitem__(self, key):
+        #get element by its index in the array
         if isinstance(key, int):
             return self.words[key]
 
+        # get element by its text
         elif isinstance(key, str):
             for w in self.words:
                 if w.get_text() == key:

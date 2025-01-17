@@ -1,0 +1,6 @@
+{
+    "inputPath": "tests/4th_case/4_in.txt",
+    "outputPath": "tests/4th_case/4_out.txt",
+    "countOrder": "ascending",
+    "lengthOrder": "descending"
+}

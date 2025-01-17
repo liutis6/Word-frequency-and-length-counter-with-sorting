@@ -14,6 +14,13 @@ The following parameters are controlled through the settings file:
 - Run "main.py"
     - Change "settings.json" if needed
 
+## Structure
+- main.py - blunt method to run the entire program
+- settings.json - holds the settings for the program to accomodate
+- data - holds the input and output files
+- src - holds all of the files to make the program work
+- tests - stores test cases for different sorting variations
+
 ## TODO:
 * Read file
     * Filter text by removing punctuation and making it all lower case.
@@ -25,3 +32,5 @@ The following parameters are controlled through the settings file:
     * Show the length and frequency of the words
     * Tabulate and auto space the words and numbers in the table
 * Add safeties
+* Create simple test cases
+* Add comments
