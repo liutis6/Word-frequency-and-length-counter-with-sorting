@@ -1,7 +1,6 @@
 from functions import *
 
-inp = open("data/input.txt", "r").read()
-x = sort(get_stats(inp), "descending", "descending")
+x = sort("data/input.txt", "descending", "descending")
 
 display(x)
 
