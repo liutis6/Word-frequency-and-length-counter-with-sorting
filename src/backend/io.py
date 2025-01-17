@@ -1,7 +1,10 @@
+from word_classes import *
 from functions import *
 
-x = sort("data/input.txt", "descending", "descending")
+x = get_stats("data/input.txt", "ascending", "descending")
+x.sort()
+x.display()
 
-out = open("data/output.txt", "w")
-out.write("works!")
+# out = open("data/output.txt", "w")
+# out.write("works!")
 
