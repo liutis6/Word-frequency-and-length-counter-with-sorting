@@ -47,7 +47,6 @@ class word:
                 return False
             else:
                 return True
-
     
     def __eq__(self, other):
         return self.text == other.text
@@ -65,7 +64,7 @@ class word_array:
     def __getitem__(self, key): 
 
         if isinstance(key, int):
-            return self.word[key]
+            return self.words[key]
 
         elif isinstance(key, str):
             for w in self.words:
